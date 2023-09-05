@@ -1,0 +1,16 @@
+# Package libjpeg and libpng within torchvision
+# https://github.com/pytorch/vision/issues/2291#issuecomment-639499275
+# $ pip3 install auditwheel
+
+numpy
+jupyter
+matplotlib
+scipy
+Pillow
+
+torch
+auditwheel
+
+SimpleITK
+scikit-image>=0.15.0
+tensorflow>=1.14,<2
